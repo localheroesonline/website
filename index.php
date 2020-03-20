@@ -127,7 +127,7 @@
 							<div class="search-content">
 								<h1 class="text primary fw-600 text-center">Kijk waar Local Heroes actief is</h1>
 								<div class="adon-group search-input">
-									<input type="text" class="v-control input-lg" value="" placeholder="search code.." id="zipcode">
+									<input type="text" class="v-control input-lg" value="" placeholder="postcode" id="zipcode">
 									<div class="adon-btn right icon icon-xlg">
 										<i class="fa fa-search"></i>
 									</div>
