@@ -146,8 +146,10 @@
 					
 					<div id="notdel" style="display:none;color: #525252;font-size: 20px;font-weight: bold;">
                         <p>Helaas, we bezorgen nog niet bij jou in de straat. Je kan natuurlijk wel gebruik maken van onze afhaal mogelijkheid.</p>
-                        <p>Ben je ondernemer of gebiedsmanager en heb je interesse in Local Heroes in jou gebied? Laat dan <a href="https://docs.google.com/forms/d/e/1FAIpQLSd_pTDnVmpzvKVzJNgRzGcFFEefbGain-C6ps7DqjYMd8T29A/viewform" target="_blank">hier</a> je gegevens achter.</p>
-                        <p>Wil je op de hoogte gehouden worden over Local Heroes? Schrijf je dan <a href="https://docs.google.com/forms/d/e/1FAIpQLScnEgIW2av8yiBeJgtw_H68QVsvKOjICPuEANNa54sH93c7TQ/viewform" target="_blank">hier</a> in voor de nieuwsbrief</p>
+                        <br/>
+                        <p>Ben je ondernemer of gebiedsmanager en heb je interesse in Local Heroes in jouw gebied? Laat dan <b><u><a href="https://docs.google.com/forms/d/e/1FAIpQLSd_pTDnVmpzvKVzJNgRzGcFFEefbGain-C6ps7DqjYMd8T29A/viewform" target="_blank">hier</a></b></u> je gegevens achter.</p>
+                        <br/>
+                        <p>Wil je op de hoogte gehouden worden over Local Heroes? Schrijf je dan <b><u><a href="https://docs.google.com/forms/d/e/1FAIpQLScnEgIW2av8yiBeJgtw_H68QVsvKOjICPuEANNa54sH93c7TQ/viewform" target="_blank">hier</a></b></u> in voor de nieuwsbrief.</p>
                     </div>
 				</div>
 				
