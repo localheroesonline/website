@@ -10,6 +10,7 @@ phpMyAdmin/
 # Old backups
 backup/
 tenkate-mart-backup/
+index-20190517.php
 
 # Transferred files
 *.csv
@@ -20,4 +21,8 @@ csv.php
 
 # Scripts for handling mail?
 notificationMail/
+
+# Script for generating promo-codes?
+promo_generation.php
+
 
