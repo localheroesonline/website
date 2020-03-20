@@ -1,0 +1,23 @@
+# API repository
+api/
+
+# Unknown what this was for
+tenkate/
+
+# Installed tools
+phpMyAdmin/
+
+# Old backups
+backup/
+tenkate-mart-backup/
+
+# Transferred files
+*.csv
+*.sql
+
+# Script for handling QR codes?
+csv.php
+
+# Scripts for handling mail?
+notificationMail/
+
