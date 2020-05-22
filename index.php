@@ -209,8 +209,17 @@ $(document).ready(function(){
     var zip = $('#zipcode').val();
 	    if(zip.length == 4)
 	    {
-	    	if((zip==1053) ||(zip == 1054) ||(zip==1016))
-	    	{
+	    	if(
+			(zip==1016)
+			|| (zip==1051) 
+			|| (zip==1052) 
+			|| (zip==1053) 
+			|| (zip==1054) 
+			|| (zip==1055) 
+			|| (zip==1056) 
+			|| (zip==1057) 
+			|| (zip==1058) 
+		) {
 	    		$('#zip').show();
 	    		$('#deliver').show();
 	    		$('#notdel').hide();
