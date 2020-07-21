@@ -71,7 +71,7 @@
 						<li>
 							<img src="img/var3.png" alt="">
 							<h5>Pick-up point</h5>
-							<p>De order kan gratis worden afgehaald bij het pick-up point aan de kinkerstraat
+							<p>De order kan gratis worden afgehaald bij het pick-up point 
 </p>
 						</li>
 						<li>
