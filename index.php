@@ -1,7 +1,7 @@
 <!DOCTYPE htm>
 <html lang="en">
 <head>
-  	<title>Local | Home</title>
+  	<title>Local Heroes | Home</title>
   	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="mobile-web-app-capable" content="yes">
