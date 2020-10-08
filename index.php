@@ -210,10 +210,10 @@
             <div class="row">
                 <div class="col-md-12">
                     <p class="text-center foooter-line">
-                        <a href="terms-conditions.php" target="_blank" class="">Algemene voorwaarden</a> |
-                        <a href="disclaimer-web.php" target="_blank" class="">Disclaimer Site</a> |
+                        <a href="terms-conditions.html" target="_blank" class="">Algemene voorwaarden</a> |
+                        <a href="disclaimer-web.html" target="_blank" class="">Disclaimer Site</a> |
                         <!-- <a href="disclaimer-app.php" target="_blank" class="">Disclaimer App</a> |  -->
-                        <a href="privacyverklaring.php" target="_blank" class="">Privacyverklaring</a>
+                        <a href="privacyverklaring.html" target="_blank" class="">Privacyverklaring</a>
                     </p>
                 </div>
             </div>
