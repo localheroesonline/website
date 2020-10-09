@@ -8,13 +8,13 @@ app.html = when visited by mobile device redirect to Play store or Apple store d
 
 csv.php = script which inserts all records from slots.csv into tabel slots. I think it was meant for one time use.
 
-disclaimer-app.php = marked for DELETION. Only disclaimer-web.php is still used
+disclaimer-app.php = redirect to disclaimer-app.html. Consumer app links here.
 
-disclaimer-web.php = redirect to disclaimer-web.html
+disclaimer-web.php = redirect to disclaimer-web.html. Index.php links here.
 
-faq.html = faq which is used in-app
+faq.html = Frequently Asked Questions made with javascript accordeon. 
 
-faq.php = redirect to faq.html
+faq.php = redirect to faq.html. Consumer app links here.
 
 image.php = marked for DELETION. Seems to be broken / unused.
 
@@ -22,12 +22,12 @@ index-20190517.php = marked for DELETION. Old backup of index.php
 
 index.php = redirect to index.html
 
-privacy.php = redirect to privacy.html
+privacy.php = redirect to privacy.html. Consumer app links here.
 
-privacyverklaring.php = redirect to privacyverklaring.html
+privacyverklaring.php = redirect to privacyverklaring.html. Index.php links here.
 
 promo_generation.php = marked for DELETION. Script to generate promo codes. Is now obsolete.
 
 slots.csv = This basically reflects the physical slots of our current hub. 
 
-terms-conditions.php = redirect to terms-conditions.html
+terms-conditions.php = redirect to terms-conditions.html. Index.php links here.
