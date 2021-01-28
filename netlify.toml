@@ -6,9 +6,9 @@ force = true
 
 [[redirects]]
 from = "/*.php"
-to = "/*.html"
+to = "/:splat.html"
 status = 200
-force = true
+force = false
 
 [[redirects]]
 from = "/giel"
@@ -20,4 +20,3 @@ from = "https://giel.localheroesonline.com/*"
 to = "https://goudsmit.tech"
 status = 302
 force = true
-
