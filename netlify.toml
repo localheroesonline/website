@@ -3,3 +3,15 @@ from = "/*.php"
 to = "/:splat.html"
 status = 200
 force = true
+
+[[redirects]]
+from = "/giel"
+to = "https://goudsmit.tech"
+status = 302
+
+[[redirects]]
+from = "https://giel.localheroesonline.com/*"
+to = "https://goudsmit.tech"
+status = 302
+force = true
+
