@@ -1,6 +1,48 @@
 [[redirects]]
+from = "/index.php"
+to = "/index.html"
+status = 200
+force = true
+
+[[redirects]]
 from = "/faq.php"
 to = "/faq.html"
+status = 200
+force = true
+
+[[redirects]]
+from = "/disclaimer-web.php"
+to = "/disclaimer-web.html"
+status = 200
+force = true
+
+[[redirects]]
+from = "/disclaimer-app.php"
+to = "/disclaimer-app.html"
+status = 200
+force = true
+
+[[redirects]]
+from = "/privacyverklaring.php"
+to = "/privacyverklaring.html"
+status = 200
+force = true
+
+[[redirects]]
+from = "/privacy.php"
+to = "/privacy.html"
+status = 200
+force = true
+
+[[redirects]]
+from = "/terms-conditions.php"
+to = "/terms-conditions.html"
+status = 200
+force = true
+
+[[redirects]]
+from = "/karv2.php"
+to = "/karv2.html"
 status = 200
 force = true
 
