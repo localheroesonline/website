@@ -1,6 +1,6 @@
 [[redirects]]
-from = "/*.php"
-to = "/:splat.html"
+from = "/faq.php"
+to = "/faq.html"
 status = 200
 force = true
 
