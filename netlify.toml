@@ -5,6 +5,12 @@ status = 200
 force = true
 
 [[redirects]]
+from = "/*.php"
+to = "/*.html"
+status = 200
+force = true
+
+[[redirects]]
 from = "/giel"
 to = "https://goudsmit.tech"
 status = 302
