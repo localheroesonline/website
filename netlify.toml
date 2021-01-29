@@ -53,6 +53,12 @@ status = 200
 force = false
 
 [[redirects]]
+from = "/jobs"
+to = "https://localheroes.recruitee.com"
+status = 302
+force = true
+
+[[redirects]]
 from = "https://jobs.localheroesonline.com/*"
 to = "https://localheroes.recruitee.com"
 status = 302
