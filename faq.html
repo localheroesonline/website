@@ -2,7 +2,84 @@
 <html lang="en">
 
 <head>
-    <title>LocalHeroes | Home</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-260378921"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-260378921');
+    </script>
+    <script type="text/javascript">
+        (function(c, a) {
+            if (!a.__SV) {
+                var b = window;
+                try {
+                    var d, m, j, k = b.location,
+                        f = k.hash;
+                    d = function(a, b) {
+                        return (m = a.match(RegExp(b + "=([^&]*)"))) ? m[1] : null
+                    };
+                    f && d(f, "state") && (j = JSON.parse(decodeURIComponent(d(f, "state"))), "mpeditor" === j.action && (b.sessionStorage.setItem("_mpcehash", f), history.replaceState(j.desiredHash || "", c.title, k.pathname + k.search)))
+                } catch (n) {}
+                var l, h;
+                window.mixpanel = a;
+                a._i = [];
+                a.init = function(b, d, g) {
+                    function c(b, i) {
+                        var a = i.split(".");
+                        2 == a.length && (b = b[a[0]], i = a[1]);
+                        b[i] = function() {
+                            b.push([i].concat(Array.prototype.slice.call(arguments,
+                                0)))
+                        }
+                    }
+                    var e = a;
+                    "undefined" !== typeof g ? e = a[g] = [] : g = "mixpanel";
+                    e.people = e.people || [];
+                    e.toString = function(b) {
+                        var a = "mixpanel";
+                        "mixpanel" !== g && (a += "." + g);
+                        b || (a += " (stub)");
+                        return a
+                    };
+                    e.people.toString = function() {
+                        return e.toString(1) + ".people (stub)"
+                    };
+                    l = "disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
+                    for (h = 0; h < l.length; h++) c(e, l[h]);
+                    var f = "set set_once union unset remove delete".split(" ");
+                    e.get_group = function() {
+                        function a(c) {
+                            b[c] = function() {
+                                call2_args = arguments;
+                                call2 = [c].concat(Array.prototype.slice.call(call2_args, 0));
+                                e.push([d, call2])
+                            }
+                        }
+                        for (var b = {}, d = ["get_group"].concat(Array.prototype.slice.call(arguments, 0)), c = 0; c < f.length; c++) a(f[c]);
+                        return b
+                    };
+                    a._i.push([b, d, g])
+                };
+                a.__SV = 1.2;
+                b = c.createElement("script");
+                b.type = "text/javascript";
+                b.async = !0;
+                b.src = "undefined" !== typeof MIXPANEL_CUSTOM_LIB_URL ?
+                    MIXPANEL_CUSTOM_LIB_URL : "file:" === c.location.protocol && "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//) ? "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js" : "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";
+                d = c.getElementsByTagName("script")[0];
+                d.parentNode.insertBefore(b, d)
+            }
+        })(document, window.mixpanel || []);
+        mixpanel.init("772648dfdb6bab882dadbe27544809c2") {
+            api_host: "https://api-eu.mixpanel.com"
+        };
+    </script>
+    <title>LocalHeroes | FAQ</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="mobile-web-app-capable" content="yes">
@@ -56,9 +133,16 @@
                         </div>
                         <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#faqExample">
                             <div class="card-body py-1">
-                                <p>Afhalen kan van maandag tot en met vrijdag vanaf 17:00 tot 19:00 op het <a title="Local Heroes Pick up point" href="https://goo.gl/maps/F7hJzMKQdUycdczr6" target="_blank" rel="noopener">Local Heroes Pick up point</a>.</p>
-                                <p>Op zaterdag kan je afhalen tussen 12:00-14:00.</p>
-                                <p>Het Pick Up point bevindt zich op de hoek van de Ten Katemarkt/Borgerstraat, tegenover Cafe Bax.</p>
+                                <p>Afhalen bij het Pick up point is mogelijk:
+                                    <ul>
+                                        <li>Maandag t/m vrijdag tussen 12:00 en 14:00</li>
+                                        <li>Maandag t/m vrijdag tussen 17:00 en 19:00</li>
+                                        <li>Zaterdag tussen 12:00 en 14:00</li>
+                                    </ul>
+                                </p>
+                                <p>Het <a title="Local Heroes Pick up point" href="https://goo.gl/maps/F7hJzMKQdUycdczr6" target="_blank" rel="noopener">Local Heroes Pick up point</a> bevindt zich op de hoek van de Ten Katemarkt/Borgerstraat, tegenover Cafe
+                                    Bax.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -74,9 +158,17 @@
                             <div class="card-body py-1">
                                 <p>Op dit moment bezorgen wij in postcode gebieden 1016, 1053, 1054, 1051, 1052, 1055, 1056, 1057 &amp; 1058 (Amsterdam).</p>
                                 <p>Woon je buiten dit postcodegebied? Selecteer dan de optie 'Afhalen' en kom langs bij het Local Heroes Pick Up point.</p>
-                                <p>Het Pick Up point bevindt zich op de hoek van de Ten Katemarkt/Borgerstraat, tegenover Cafe Bax.</p>
+                                <p>Het <a title="Local Heroes Pick up point" href="https://goo.gl/maps/F7hJzMKQdUycdczr6" target="_blank" rel="noopener">Local Heroes Pick up point</a> bevindt zich op de hoek van de Ten Katemarkt/Borgerstraat, tegenover Cafe
+                                    Bax.
+                                </p>
                                 <p>&nbsp;</p>
-                                <p>Maandag tot en met vrijdag bezorgen we tussen 17:00 en 20:00. Op zaterdag bezorgen we tussen 12:00 en 14:00.</p>
+                                <p>Onze bezorgopties:
+                                    <ul>
+                                        <li>Maandag t/m vrijdag tussen 12:00 en 14:00</li>
+                                        <li>Maandag t/m vrijdag tussen 17:00 en 20:00</li>
+                                        <li>Zaterdag tussen 12:00 en 14:00</li>
+                                    </ul>
+                                </p>
                                 <p>Tijdens het bestellen kan je kiezen wanneer je bestelling bezorgd moet worden.</p>
                             </div>
                         </div>
@@ -123,8 +215,14 @@
                         </div>
                         <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#faqExample">
                             <div class="card-body py-1">
-                                <p>Je kunt op ieder moment van de dag bestellen. Let goed op welk afhaal of bezorgmoment je hebt geselecteerd! Bestel je voor 15:00 op maandag tot vrijdag, dan kun je het dezelfde nog komen afhalen of laten bezorgen. Bestel
-                                    je voor 10:00 op zaterdag dan kun je het tussen 12:00 en 14:00 al afhalen of laten bezorgen.</p>
+                                <p>Je kunt op ieder moment van de dag bestellen. Let goed op welk afhaal of bezorgmoment je hebt geselecteerd!
+                                    <ul>
+                                        <li>Maandag t/m vrijdag tussen 12:00 en 14:00 - <strong>Bestel v��r 10:00</strong></li>
+                                        <li>Maandag t/m vrijdag tussen 17:00 en 20:00 - <strong>Bestel v��r 15:00</strong></li>
+                                        <li>Zaterdag tussen 12:00 en 14:00 - <strong>Bestel v��r 10:00</strong></li>
+                                        </li>
+                                    </ul>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -169,8 +267,8 @@
                         </div>
                         <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#faqExample">
                             <div class="card-body py-1">
-                                <p>Dat kan helaas (nog) niet. Als je na 15:00 besteld op maandag tot vrijdag is dat voor de volgende dag, als je na 10:00 besteld op zaterdag dan is de bestelling voor maandag. Bestel je op de dag zelf voor 15:00 (of 10:00
-                                    op zaterdag), dan is het voor vandaag.</p>
+                                <p>Dat kan helaas (nog) niet. Als je n&agrave; 15:00 besteld op maandag tot vrijdag is dat voor de volgende dag, als je n� 10:00 besteld op zaterdag dan is de bestelling voor maandag. Bestel je op de dag zelf v&oacute;&oacute;r
+                                    15:00 (of 10:00 op zaterdag), dan is het voor vandaag.</p>
                             </div>
                         </div>
                     </div>
