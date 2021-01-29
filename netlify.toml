@@ -53,12 +53,18 @@ status = 200
 force = false
 
 [[redirects]]
-from = "/giel"
-to = "https://goudsmit.tech"
-status = 302
-
-[[redirects]]
-from = "https://giel.localheroesonline.com/*"
-to = "https://goudsmit.tech"
+from = "https://jobs.localheroesonline.com/*"
+to = "https://localheroes.recruitee.com"
 status = 302
 force = true
+
+# [[redirects]]
+# from = "/giel"
+# to = "https://goudsmit.tech"
+# status = 302
+
+# [[redirects]]
+# from = "https://giel.localheroesonline.com/*"
+# to = "https://goudsmit.tech"
+# status = 302
+# force = true
