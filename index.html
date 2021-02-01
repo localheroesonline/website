@@ -107,12 +107,14 @@
         function trackVisitAppstore() {
             mixpanel.track("Goto App Marketplace", {
                 "Marketplace": "iOS",
+                "Campaign": "index.html",
             });
         };
 
         function trackVisitPlaystore() {
             mixpanel.track("Goto App Marketplace", {
                 "Marketplace": "Android",
+                "Campaign": "index.html",
             });
         };
 
@@ -132,7 +134,7 @@
             mixpanel.track("Whatsapp Local Heroes");
         };
 
-        mixpanel.track("Homepage Visit");
+        mixpanel.track("Visit Homepage");
     </script>
 </head>
 
