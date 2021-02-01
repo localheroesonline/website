@@ -78,6 +78,47 @@
         mixpanel.init("772648dfdb6bab882dadbe27544809c2") {
             api_host: "https://api-eu.mixpanel.com"
         };
+        mixpanel.track("Homepage Visit", {
+            "URI": document.documentURI,
+            "Title": document.title,
+            "Referrer": document.referrer,
+        });
+    </script>
+    <script>
+        function trackVisitAppstore() {
+            mixpanel.track("Goto App Marketplace", {
+                "OS": "iOS",
+                "URI": document.documentURI,
+                "Title": document.title,
+                "referrer": document.referrer,
+            });
+        };
+
+        function trackVisitPlaystore() {
+            mixpanel.track("Goto App Marketplace", {
+                "OS": "Android",
+                "URI": document.documentURI,
+                "Title": document.title,
+                "referrer": document.referrer,
+            });
+        };
+
+        function trackVisitVendorSurvey() {
+            mixpanel.track("Goto Vendor Signup", {
+                "URI": document.documentURI,
+                "Title": document.title,
+                "referrer": document.referrer,
+            });
+        };
+
+        function trackVisitNewsletterSignup() {
+            mixpanel.track("Goto Newsletter Signup", {
+                "URI": document.documentURI,
+                "Title": document.title,
+                "referrer": document.referrer,
+            });
+        };
+    </script>
     </script>
     <title>Local Heroes | Home</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -117,10 +158,10 @@
                         <h1 class="tagline">Bestel het <span class="highlight">beste</span> uit de buurt</h1>
                         <h2 class="text primary fw-400">Local Heroes is het e-commerce platform waarmee je eenvoudig en altijd via de app het aanbod van <span class="highlight">lokale</span> ondernemers kan bestellen</h2>
                         <div class="get-app">
-                            <a href="https://apps.apple.com/us/app/lh-consumer/id1470938037" target="_blank" class="get-app-img">
+                            <a href="https://apps.apple.com/us/app/lh-consumer/id1470938037" target="_blank" class="get-app-img" onclick="trackVisitAppstore()">
                                 <img src="img/hero4.png" class="img-fluid">
                             </a>
-                            <a href="https://play.google.com/store/apps/details?id=com.localheroes.consumer" target="_blank" class="get-app-img">
+                            <a href="https://play.google.com/store/apps/details?id=com.localheroes.consumer" target="_blank" class="get-app-img" onclick="trackVisitPlaystore()">
                                 <img src="img/hero14.png" class="img-fluid">
                             </a>
                         </div>
@@ -241,10 +282,11 @@
                 <div id="notdel" style="display:none;color: #525252;font-size: 20px;font-weight: bold;">
                     <p>Helaas, we bezorgen nog niet bij jou in de straat. Je kan natuurlijk wel gebruik maken van onze afhaal mogelijkheid.</p>
                     <br/>
-                    <p>Ben je ondernemer of gebiedsmanager en heb je interesse in Local Heroes in jouw gebied? Laat dan <b><u><a href="https://docs.google.com/forms/d/e/1FAIpQLSd_pTDnVmpzvKVzJNgRzGcFFEefbGain-C6ps7DqjYMd8T29A/viewform" target="_blank">hier</a></b></u>
+                    <p>Ben je ondernemer of gebiedsmanager en heb je interesse in Local Heroes in jouw gebied? Laat dan <b><u><a href="https://docs.google.com/forms/d/e/1FAIpQLSd_pTDnVmpzvKVzJNgRzGcFFEefbGain-C6ps7DqjYMd8T29A/viewform" target="_blank" onClick="trackVisitVendorSurvey()">hier</a></b></u>
                         je gegevens achter.</p>
                     <br/>
-                    <p>Wil je op de hoogte gehouden worden over Local Heroes? Schrijf je dan <b><u><a href="https://docs.google.com/forms/d/e/1FAIpQLScnEgIW2av8yiBeJgtw_H68QVsvKOjICPuEANNa54sH93c7TQ/viewform" target="_blank">hier</a></b></u> in voor de nieuwsbrief.</p>
+                    <p>Wil je op de hoogte gehouden worden over Local Heroes? Schrijf je dan <b><u><a href="https://docs.google.com/forms/d/e/1FAIpQLScnEgIW2av8yiBeJgtw_H68QVsvKOjICPuEANNa54sH93c7TQ/viewform" target="_blank" onClick="trackVisitNewsletterSignup()">hier</a></b></u>in
+                        voor de nieuwsbrief.</p>
                 </div>
             </div>
 
