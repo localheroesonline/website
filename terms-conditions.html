@@ -78,6 +78,11 @@
         mixpanel.init("772648dfdb6bab882dadbe27544809c2") {
             api_host: "https://api-eu.mixpanel.com"
         };
+        mixpanel.track("Terms & Conditions Visit", {
+            "URI": document.documentURI,
+            "Title": document.title,
+            "Referrer": document.referrer,
+        });
     </script>
     <title>LocalHeroes | Terms & Conditions</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
