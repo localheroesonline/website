@@ -75,8 +75,37 @@
                 d.parentNode.insertBefore(b, d)
             }
         })(document, window.mixpanel || []);
-        mixpanel.init("772648dfdb6bab882dadbe27544809c2") {
+        mixpanel.init("772648dfdb6bab882dadbe27544809c2", {
             api_host: "https://api-eu.mixpanel.com"
+        });
+
+        function trackVisitAppstore() {
+            mixpanel.track("Goto App Marketplace", {
+                "OS": "iOS",
+                "URI": document.documentURI,
+                "Title": document.title,
+                "referrer": document.referrer,
+                "Campaign": "qr-code-pickup-point-002",
+            });
+        };
+
+        function trackVisitPlaystore() {
+            mixpanel.track("Goto App Marketplace", {
+                "OS": "Android",
+                "URI": document.documentURI,
+                "Title": document.title,
+                "referrer": document.referrer,
+                "Campaign": "qr-code-pickup-point-002",
+            });
+        };
+
+        function trackVisitLocalHeroesHome() {
+            mixpanel.track("Goto Local Heroes Home", {
+                "URI": document.documentURI,
+                "Title": document.title,
+                "referrer": document.referrer,
+                "Campaign": "qr-code-pickup-point-002",
+            });
         };
     </script>
     <meta charset="utf-8" />
@@ -106,13 +135,17 @@
         function DetectAndServe() {
             let os = getMobileOperatingSystem();
             if (os == "Android") {
+                trackVisitPlaystore();
                 window.location.href = "https://play.google.com/store/apps/details?id=com.localheroes.consumer&referrer=utm_source%3Dpickup-point-002%26utm_medium%3Dqr-code%26utm_campaign%3Dqr-code-pickup-point-002-awareness";
             } else if (os == "iOS") {
+                trackVisitAppstore();
                 window.location.href = "https://apps.apple.com/app/apple-store/id1470938037?pt=119703705&ct=newhubcarqr&mt=8";
             } else if (os == "Windows Phone") {
-                window.location.href = "http://www.localheroesonline.com/";
+                trackVisitLocalHeroesHome();
+                window.location.href = "https://www.localheroesonline.com";
             } else {
-                window.location.href = "http://www.localheroesonline.com/";
+                trackVisitLocalHeroesHome();
+                window.location.href = "https://www.localheroesonline.com";
             }
         }
     </script>
