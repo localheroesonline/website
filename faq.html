@@ -78,11 +78,6 @@
         mixpanel.init("772648dfdb6bab882dadbe27544809c2", {
             api_host: "https://api-eu.mixpanel.com"
         });
-        mixpanel.track("FAQ Visit", {
-            "URI": document.documentURI,
-            "Title": document.title,
-            "Referrer": document.referrer,
-        });
     </script>
     <title>LocalHeroes | FAQ</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -114,6 +109,13 @@
             font-size: 23px;
         }
     </style>
+    <script>
+        mixpanel.track("FAQ Visit", {
+            "URI": document.documentURI,
+            "Title": document.title,
+            "Referrer": document.referrer,
+        });
+    </script>
 </head>
 
 <body style="background-color: #f1edea">
