@@ -106,58 +106,33 @@
     <script>
         function trackVisitAppstore() {
             mixpanel.track("Goto App Marketplace", {
-                "OS": "iOS",
-                "URI": document.documentURI,
-                "Title": document.title,
-                "referrer": document.referrer,
+                "Marketplace": "iOS",
             });
         };
 
         function trackVisitPlaystore() {
             mixpanel.track("Goto App Marketplace", {
-                "OS": "Android",
-                "URI": document.documentURI,
-                "Title": document.title,
-                "referrer": document.referrer,
+                "Marketplace": "Android",
             });
         };
 
         function trackVisitVendorSurvey() {
-            mixpanel.track("Goto Vendor Signup", {
-                "URI": document.documentURI,
-                "Title": document.title,
-                "referrer": document.referrer,
-            });
+            mixpanel.track("Goto Vendor Signup");
         };
 
         function trackVisitNewsletterSignup() {
-            mixpanel.track("Goto Newsletter Signup", {
-                "URI": document.documentURI,
-                "Title": document.title,
-                "referrer": document.referrer,
-            });
+            mixpanel.track("Goto Newsletter Signup");
         };
 
         function trackEmailLocalHeroes() {
-            mixpanel.track("Email Local Heroes", {
-                "URI": document.documentURI,
-                "Title": document.title,
-                "referrer": document.referrer,
-            });
+            mixpanel.track("Email Local Heroes");
         };
 
         function trackWhatsappLocalHeroes() {
-            mixpanel.track("Whatsapp Local Heroes", {
-                "URI": document.documentURI,
-                "Title": document.title,
-                "referrer": document.referrer,
-            });
+            mixpanel.track("Whatsapp Local Heroes");
         };
-        mixpanel.track("Homepage Visit", {
-            "URI": document.documentURI,
-            "Title": document.title,
-            "Referrer": document.referrer,
-        });
+
+        mixpanel.track("Homepage Visit");
     </script>
 </head>
 
