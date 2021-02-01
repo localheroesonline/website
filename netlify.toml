@@ -23,6 +23,12 @@ status = 200
 force = true
 
 [[redirects]]
+from = "/jobs"
+to = "https://localheroes.recruitee.com/"
+status = 200
+force = true
+
+[[redirects]]
 from = "/disclaimer-web.php"
 to = "/disclaimer-web.html"
 status = 200
