@@ -79,6 +79,12 @@
             api_host: "https://api-eu.mixpanel.com"
         });
 
+        mixpanel.track("Karv2 Visit", {
+            "URI": document.documentURI,
+            "Title": document.title,
+            "Referrer": document.referrer,
+        });
+
         function trackVisitAppstore() {
             mixpanel.track("Goto App Marketplace", {
                 "OS": "iOS",

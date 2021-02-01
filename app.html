@@ -78,6 +78,11 @@
         mixpanel.init("772648dfdb6bab882dadbe27544809c2", {
             api_host: "https://api-eu.mixpanel.com"
         });
+        mixpanel.track("App Visit", {
+            "URI": document.documentURI,
+            "Title": document.title,
+            "Referrer": document.referrer,
+        });
 
         function trackVisitAppstore() {
             mixpanel.track("Goto App Marketplace", {
