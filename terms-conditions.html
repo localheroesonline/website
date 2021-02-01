@@ -75,9 +75,9 @@
                 d.parentNode.insertBefore(b, d)
             }
         })(document, window.mixpanel || []);
-        mixpanel.init("772648dfdb6bab882dadbe27544809c2") {
+        mixpanel.init("772648dfdb6bab882dadbe27544809c2", {
             api_host: "https://api-eu.mixpanel.com"
-        };
+        });
         mixpanel.track("Terms & Conditions Visit", {
             "URI": document.documentURI,
             "Title": document.title,
