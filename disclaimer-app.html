@@ -78,11 +78,6 @@
         mixpanel.init("772648dfdb6bab882dadbe27544809c2", {
             api_host: "https://api-eu.mixpanel.com"
         });
-        mixpanel.track("Disclaimer App Visit", {
-            "URI": document.documentURI,
-            "Title": document.title,
-            "Referrer": document.referrer,
-        });
     </script>
     <title>LocalHeroes | Disclaimer App</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -99,7 +94,13 @@
     <link rel="stylesheet" type="text/css" href="css/layout.css">
     <link rel="stylesheet" type="text/css" href="css/custom.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
-
+    <script>
+        mixpanel.track("Disclaimer App Visit", {
+            "URI": document.documentURI,
+            "Title": document.title,
+            "Referrer": document.referrer,
+        });
+    </script>
 </head>
 
 <body style="background-color: #f1edea">

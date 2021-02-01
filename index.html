@@ -78,12 +78,31 @@
         mixpanel.init("772648dfdb6bab882dadbe27544809c2", {
             api_host: "https://api-eu.mixpanel.com"
         });
-        mixpanel.track("Homepage Visit", {
-            "URI": document.documentURI,
-            "Title": document.title,
-            "Referrer": document.referrer,
-        });
     </script>
+
+    <title>Local Heroes | Home</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="shortcut icon" href="favicon1.png" />
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+    <meta name="description" content="">
+
+    <!-- FONTS -->
+    <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <style type="text/css">
+        .how-works .list-item li h5 {
+            padding-left: 80px;
+            font-weight: bold;
+            font-size: 19px;
+        }
+    </style>
     <script>
         function trackVisitAppstore() {
             mixpanel.track("Goto App Marketplace", {
@@ -134,31 +153,12 @@
                 "referrer": document.referrer,
             });
         };
+        mixpanel.track("Homepage Visit", {
+            "URI": document.documentURI,
+            "Title": document.title,
+            "Referrer": document.referrer,
+        });
     </script>
-    </script>
-    <title>Local Heroes | Home</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="mobile-web-app-capable" content="yes">
-    <link rel="shortcut icon" href="favicon1.png" />
-    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
-    <meta name="description" content="">
-
-    <!-- FONTS -->
-    <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
-
-    <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/layout.css">
-    <link rel="stylesheet" type="text/css" href="css/custom.css">
-    <link rel="stylesheet" type="text/css" href="css/responsive.css">
-    <style type="text/css">
-        .how-works .list-item li h5 {
-            padding-left: 80px;
-            font-weight: bold;
-            font-size: 19px;
-        }
-    </style>
 </head>
 
 <body>
