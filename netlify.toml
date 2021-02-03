@@ -29,6 +29,12 @@ status = 200
 force = true
 
 [[redirects]]
+from = "/v2_a"
+to = "https://docs.google.com/presentation/d/e/2PACX-1vTG-fP0i7zidUzli7DuFnM8hiaIjrqiZnGhTt4cOWLndjsJcjAwUtoe6Wu5dHUw6VfEDEZe9VR6bdo7/pub?start=true&loop=true&delayms=3000&slide=id.gb8b17a9f7c_0_1"
+status = 200
+force = true
+
+[[redirects]]
 from = "/disclaimer-web.php"
 to = "/disclaimer-web.html"
 status = 200
