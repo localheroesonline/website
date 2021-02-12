@@ -16,10 +16,17 @@ to = "https://localheroes.recruitee.com/"
 status = 200
 force = true
 
-# redirect meant to display a continuous google slideshow on the smart television of hub pickup #002
+# redirect meant to display a continuous google slideshow on the smart television of hub pickup #002 (back of the hub)
 [[redirects]]
 from = "/v2_a"
 to = "https://docs.google.com/presentation/d/e/2PACX-1vTG-fP0i7zidUzli7DuFnM8hiaIjrqiZnGhTt4cOWLndjsJcjAwUtoe6Wu5dHUw6VfEDEZe9VR6bdo7/pub?start=true&loop=true&delayms=3000&slide=id.gb8b17a9f7c_0_1"
+status = 302
+force = true
+
+# redirect meant to display a continuous google slideshow on the smart television of hub pickup #002 (front of the hub)
+[[redirects]]
+from = "/v2_v"
+to = "https://docs.google.com/presentation/d/e/2PACX-1vT9YjiQtsXgkpFsGYIg5ASYIIURpSh4vVPKOzxKNpZG5UfHYMskxVc_o_PnO8WUNWwlHakkm1Y19r3X/pub?start=true&loop=true&delayms=3000"
 status = 302
 force = true
 
