@@ -17,7 +17,7 @@ status = 302
 force = true
 
 [[redirect]]
-from = "https://www.localheroesoonline.com/api/img/*"
+from = "https://www.localheroesonline.com/api/img/*"
 to = "https://static.localheroesonline.com/img/:splat"
 status = 302
 force = true
