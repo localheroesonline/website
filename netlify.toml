@@ -10,6 +10,18 @@ to = "https://goudsmit.tech/:splat"
 status = 302
 force = true
 
+[[redirect]]
+from = "https://www.localheroesonline.com/api/img/email/*"
+to = "https://static.localheroesonline.com/email/:splat"
+status = 302
+force = true
+
+[[redirect]]
+from = "https://www.localheroesoonline.com/api/img/*"
+to = "https://static.localheroesonline.com/img/:splat"
+status = 302
+force = true
+
 [[redirects]]
 from = "/jobs"
 to = "https://localheroes.recruitee.com/"
