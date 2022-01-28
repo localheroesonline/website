@@ -1,1 +1,24 @@
-/* /index.html 302
+# permanent redirects for http://static.localheroesonline.com
+/email/logo.png                 https://assets.localheroesonline.com/email/logo.png                 301
+/email/LogoTagline.png          https://assets.localheroesonline.com/email/logo-tagline.png         301
+/img/LocalHeroes_Website_1.png  https://assets.localheroesonline.com/email/localheroes-app.png      301
+/email/Jordy2.png               https://assets.localheroesonline.com/email/Jordy2.png               301
+/email/Jolanda2.png             https://assets.localheroesonline.com/email/Jolanda2.png             301
+/email/Lex2.png                 https://assets.localheroesonline.com/email/Lex2.png                 301
+/email/facebook2x.png           https://assets.localheroesonline.com/email/facebook2x.png           301
+/email/instagram2x.png          https://assets.localheroesonline.com/email/instagram2x.png          301
+/email/whatsapp.png             https://assets.localheroesonline.com/email/whatsapp.png             301
+/email/email_icon.png           https://assets.localheroesonline.com/email/email_icon.png           301
+/email/1.png                    https://assets.localheroesonline.com/email/1.png                    301
+/email/2.png                    https://assets.localheroesonline.com/email/2.png                    301
+/email/3.png                    https://assets.localheroesonline.com/email/3.png                    301     
+/email/4.png                    https://assets.localheroesonline.com/email/4.png                    301
+/email/6.png                    https://assets.localheroesonline.com/email/6.png                    301
+/email/7.png                    https://assets.localheroesonline.com/email/7.png                    301
+/email/8.png                    https://assets.localheroesonline.com/email/8.png                    301
+/email/11.png                   https://assets.localheroesonline.com/email/11.png                   301
+/email/12.png                   https://assets.localheroesonline.com/email/12.png                   301
+/email/AppLex.png               https://assets.localheroesonline.com/email/app-lex.png              301
+/email/toko-rustem.jpg          https://assets.localheroesonline.com/email/toko-rustem.jpg          301
+/email/*                        https://assets.localheroesonline.com/email/:splat                   301
+/*                              /index.html                                                         301
